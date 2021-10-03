@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Membuat Tabel pada HTML</title>
+</head>
+<body>
+  <!-- Tag table digunakan untuk membuat tabel pada html -->
+  <!-- tag table memiliki 3 child, yaitu tag thead, tbody, dan tfoot -->
+
+  <!-- tag thead berasal dari singkatan table head yang berisi judul dari kolom tabel -->
+  <!-- tag thead memiliki child berupa tr (table row) yang di dalamnya terdapat tag th (table header) -->
+
+  <!-- tag tbody berasal dari singkatan table body yang berisi data dari tabel -->
+  <!-- tag tbody memiliki child berupa tr yang di dalamnya terdapat tag td (table data) -->
+
+  <!-- tag tfoot berasal dari singkatan table foot yang berisi keterangan tambahan dari tabel -->
+  <!-- tag tfoot memiliki child berupa tr yang di dalamnya terdapat tag td (table data) -->
+
+  <!-- perhatikan susunan kode tabel berikut dan lihat hasilnya -->
+  <style>
+    /* munculkan border untuk mempermudah pembacaan tabel */
+    th, td {
+      border: 1px solid black;
+    }
+  </style>
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <!-- susunan hirarki tabel yang baik tidak hanya memudahkan user dalam memahami tabel namun juga memudahkan robot clawler atau mesin pencari memahami konten dari laman html -->
+  <br/>
+  <br/>
+
+  <!-- atribut colspan pada td digunakan untuk penggabungan beberapa kolom dalam sebuah baris -->
+  <!-- menggunakan contoh sebelumnya, kita hendak menambahkan sebuah baris berisi keterangan tertentu -->
+  <!-- perhatikan baris februari pada contoh di bawah ini : -->
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td colspan="2"><strong>February Libur</strong></td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
