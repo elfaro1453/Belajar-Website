@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar atribut class</title>
+</head>
+<body>
+  <!-- atribut class digunakan untuk grouping atau pengelompokan elemen -->
+  <!-- elemen-elemen yang memiliki class sama akan mendapatkan perlakuan sama -->
+  <!-- berikut ini contoh menggunakan javascript -->
+  <!-- buat sebuah list dengan anggotanya memiliki class yang sama -->
+  <ul>
+    <li class="item">item 1</li>
+    <li class="item">item 2</li>
+    <li class="item">item 3</li>
+    <li class="item">item 4</li>
+  </ul>
+  <script>
+    // cari elemen-elemen dengan class sama menggunakan getElementsByClassName
+    let els = document.getElementsByClassName("item")
+    // ubah style tulisan semua elemen menjadi huruf kapital
+    for(let i = 0; i < els.length; i++) {
+      els[i].style.textTransform = "uppercase"
+    }
+  </script>
+
+  <!-- class juga dapat diidentifikasi pada style menggunakan tanda titik (.) -->
+  <!-- sebagai contoh style berikut akan mengubah warna teks pada semua elemen dengan class item menjadi bewarna biru -->
+  <style>
+    .item {
+      color:blue
+    }
+  </style>
+</body>
+</html>

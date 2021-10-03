@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar atribut id</title>
+</head>
+<body>
+  <!-- Atribut id pada elemen html berguna sebagai identifikasi unik untuk elemen HTML -->
+  <!-- identifikasi unik ini selain sebagai penunjuk elemen juga bisa digunakan sebagai referensi style -->
+
+  <!-- berikut ini contoh menggunakan Javascript -->
+  <!-- buat elemen HTML dengan id top tanpa isi text -->
+  <div id="top"></div>
+  <script>
+    // cari elemen dengan id top meggunakan getElementById
+    // hasil pencarian ini berupa satu elemen tunggal
+    let el = document.getElementById("top")
+    // ubah text dari id top menjadi "identifikasi id menggunakan javascript"
+    el.innerText = "identifikasi id menggunakan javascript"
+
+    // maka didapat tampilan berupa text tersebut pada browser.
+    // meski pada div awa;nya tidak ada isi
+  </script>
+
+  <!-- selanjutnya kita bisa menjadikan id sebagai penunjuk style pada elemen tertentu -->
+  <!-- contoh buat elemen dengan id bottom -->
+  <div id="bottom">Style dari teks ini diubah menggunakan CSS</div>
+  <!-- modifikasi style dari div tersebut menggunakan penunjuk id untuk CSS -->
+  <style>
+    /* tanda pagar (#) digunakan sebagai penunjuk id pada css */
+    #bottom {
+      color:blue;
+      font-size: 4rem;
+    }
+  </style>
+</body>
+</html>
