@@ -1,6 +1,12 @@
+import AddTodo from "./components/AddTodo";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <h1>Belajar React</h1>
+    <>
+    <Header/>
+    <AddTodo />
+    </>
   );
 }
 
