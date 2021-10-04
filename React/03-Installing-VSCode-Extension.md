@@ -6,9 +6,9 @@ Extension pada VSCode berguna untuk mempermudah developer dalam membangun aplika
 
 adalah extension yang berguna untuk memberi warna pada pasangan bracket (tanda kurung), sehingga developer tidak kesulitan dalam menganalisa scope kode atau lingkupan kode
 
-## Prettier - code formatter
+## Code formatter, bisa Prettier atau Beautify
 
-Prettier adalah extension untuk merapikan kode, sehingga kode yang dibuat mudah dibaca.
+**Code formatter** adalah extension untuk merapikan kode, sehingga kode yang dibuat mudah dibaca.
 
 ## Es7 React/Redux/GraphQL/React-Native snippets
 
