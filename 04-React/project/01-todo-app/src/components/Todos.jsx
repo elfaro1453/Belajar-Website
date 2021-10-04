@@ -8,7 +8,7 @@ function Todos() {
   ]
   return(
     <ul>
-      <TodoItem daftar={listData}/>
+      <TodoItem data={listData}/>
     </ul>
   )
 }
