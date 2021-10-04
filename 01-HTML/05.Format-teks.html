@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar format teks</title>
+</head>
+<body>
+  <!-- format teks digunakan untuk mempermudah user memahami isi dari laman html -->
+  <!-- tag html untuk format teks terdiri dari :
+    • teks tebal (bold),
+    • teks miring (italic),
+    • teks bergaris bawah (underline),
+    • teks bergaris tengah (crossline),
+    • teks bertanda (marked)
+    • superscript
+    • subscript
+    • code
+  -->
+
+  <!-- teks Tebal -->
+  <!-- teks tebal digunakan untuk memberi kesan penting -->
+  <!-- terdapat 2 tag untuk membuat teks tebal di dalam html -->
+  <!-- yaitu menggunakan tag b dan tag strong, lebih disarankan menggunakan tag strong -->
+  <!-- contoh teks tebal -->
+  <p><b>Teks Tebal menggunakan tag b</b><br/>
+  <strong>Teks tebal menggunakan tag strong</strong></p>
+
+  <!-- teks miring -->
+  <!-- teks miring digunakan untuk memberi kesan penekanan pada teks -->
+  <!-- terdapat 2 tag untuk membuat teks miring -->
+  <!-- yaitu menggunakan tag i dan tag em, disarankan menggunakan tag em -->
+  <!-- contoh teks miring -->
+  <p><i>teks miring menggunakan tag i</i><br/>
+  <em>teks miring menggunakan tag em</em></p>
+
+  <!-- teks bergaris bawah -->
+  <!-- fungsinya sebagai penanda untuk teks yang keliru penulisannya -->
+  <!-- kita biasanya menemukan teks bergaris bawah karena keliru penulisan di fitur microsoft word -->
+  <!-- tag u digunakan untuk membuat tulisan bergaris bawah -->
+  <p><u>Conth</u> penulisan teks bergaris bawah</p>
+
+  <!-- teks bergaris tengah -->
+  <!-- fungsinya sebagai penanda untuk teks dengan informasi yang tidak lagi berlaku atau teks yang dikoreksi -->
+  <!-- kita bisa menggunakan 2 tag untuk membuat teks bergaris tengah -->
+  <!-- yaitu menggunakan tag s dan tag del, disarankan menggunakan tag del -->
+  <!-- contoh penggunaan : -->
+  <p>Barang ini <s>dijual dengan harga 500 ribu</s> <b>TELAH TERJUAL !</b><br/>
+  Barang ini <del>tidak</del> laku dijual</p>
+
+  <!-- teks bertanda -->
+  <!-- fungsinya memberi penanda pada teks -->
+  <!-- tag mark digunakan untuk membuat teks bertanda -->
+  <p><mark>Fungsi utama semantik HTML yaitu memperjelas hirarki dari laman HTML</mark></p>
+
+  <!-- superscript -->
+  <!-- biasanya digunakan untuk menulis formula atau matematika seperti memberi pangkat -->
+  <!-- tag sup digunakan untuk membuat teks superscript -->
+  <p>2<sup>3</sup> = 8<br/>
+  5 * 10<sup>9</sup> = 5000000000</p>
+
+  <!-- subscript -->
+  <!-- sama seperti superscript, digunakan untuk menulis formula atau matematika -->
+  <!-- tag sub digunakan untuk membuat teks subscript -->
+  <p>formula kimia dari air adalah H<sub>2</sub>O</p>
+
+  <!-- code -->
+  <!-- tag cpde berfungsi untuk memberi tahu user bahwasanya teks tersebut adalah kode -->
+  <!-- sebaiknya kode yang ditulis telah di-escape-html-entities terlabih dahulu agar tidak error -->
+  <!-- contoh : -->
+  <p><code>&lt;script&gt;alert(&quot;ini contoh alert javascript&quot;)&lt;/script&gt;</code></p>
+
+  <!-- kita bisa menyandingkan dengan tag pre agar tampilan lebih baik -->
+  <!-- tag pre tidak mereset susunan dari kode saat dirender untuk user -->
+  <p><pre><code>
+    &lt;script&gt;
+        alert(&quot;ini contoh alert javascript&quot;)
+    &lt;/script&gt;
+  </code></pre></p>
+
+  <!-- masih ada beberapa tag format teks lainnya, namun yang sering dipakai adalah tag format teks di atas -->
+</body>
+</html>
