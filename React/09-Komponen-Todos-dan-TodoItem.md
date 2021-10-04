@@ -4,7 +4,7 @@ Komponen `TodoItem` dibuat terlebih dahulu karena menjadi child dari komponen `T
 
 ## Komponen TodoItem
 
-Buat `TodoItem.js` di dalam folder `src`, isi dengan kode berikut :
+Buat `TodoItem.jsx` di dalam folder `src`, isi dengan kode berikut :
 
 ```javascript
 function TodoItem() {
@@ -16,13 +16,13 @@ export default TodoItem
 
 ```
 
-simpan `TodoItem.js`
+Simpan `TodoItem.jsx`
 
 ## Komponen Todos
 
 Komponen `Todos` digunakan sebagai container atau wadah untuk daftar atau list todo item.
 
-Buat `Todos.js` di dalam folder `src`, isi dengan kode berikut :
+Buat `Todos.jsx` di dalam folder `src`, isi dengan kode berikut :
 
 ```javascript
 import TodoItem from "./TodoItem"
@@ -39,10 +39,12 @@ function Todos() {
 export default Todos
 ```
 
+Simpan file `TodoItem.jsx`
+
 Keterangan :
 
-* Setelah mengimport komponen TodoItem, kita memanggil komponen tersebut menggunakan kode `<TodoItem/>`.
-* `<TodoItem/>` yang dipanggil sebanyak 3 kali itu masing-masing merupakan instansi yang berbeda
+* Setelah mengimport komponen TodoItem, kita memanggil komponen tersebut menggunakan kode `<TodoItem />`.
+* `<TodoItem />` yang dipanggil sebanyak 3 kali itu masing-masing merupakan instansi yang berbeda
 
 ## Modifikasi App.js
 

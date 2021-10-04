@@ -2,7 +2,7 @@
 
 Pada Project Todo ini, komponen Header hanya berisi judul dari nama aplikasi saja. Kita akan membuat sebuah komponen sederhana yang terdiri dari title dan heading 1
 
-Buat file baru di dalam folder `components` bernama `Header.js`, kemudian isi dengan kode berikut :
+Buat file baru di dalam folder `components` bernama `Header.jsx`, kemudian isi dengan kode berikut :
 
 ```javascript
 function Header() {
@@ -14,6 +14,8 @@ function Header() {
 }
 export default Header
 ```
+
+Simpan file `Header.jsx`
 
 Keterangan :
 
@@ -42,6 +44,8 @@ function App() {
 }
 export default App
 ```
+
+Simpan file `App.js` kemudian lihat hasilnya di browser.
 
 Keterangan :
 
