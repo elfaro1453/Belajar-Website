@@ -17,6 +17,16 @@ body {
     "Segoe UI Emoji";
   margin: 0;
 }
+
+#root {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
 ```
 
 ## Import index.css ke dalam file index.js
