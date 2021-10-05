@@ -4,7 +4,7 @@ Komponen Header akan diberi style sederhana yaitu perubahan warna background dan
 
 ## Membuat file Header.css
 
-Buat file `Header.css` di dalam foldel `styles`.
+Buat file `Header.css` di dalam folder `styles`.
 
 Masukkan kode berikut ini :
 
