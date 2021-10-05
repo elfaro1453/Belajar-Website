@@ -19,6 +19,8 @@ function Child(props) {
 }
 ```
 
+komponen di atas hanya contoh saja ya.
+
 Untuk mempelajari secara langsung, kita akan menggunakan data dummy pada komponen `<Todos />` yang akan ditransfer ke komponen `<TodoItem />`.
 
 ## Menambahkan props pada Komponen TodoItem
