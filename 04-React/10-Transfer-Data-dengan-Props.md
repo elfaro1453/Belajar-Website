@@ -28,14 +28,18 @@ Untuk mempelajari secara langsung, kita akan menggunakan data dummy pada kompone
 Buka file komponen `TodoItem.jsx`, modifikasi menjadi kode berikut ini:
 
 ```javascript
+import React from "react"
+
 function TodoItem(props) {
   let data = props.data
-  let listItem =  data.map((item) => {
+  let listItem = data.map((item) => {
       return <li>{item}</li>
   })
 
   return (
-    {listItem}
+    <React.Fragment>
+      {listItem}
+    </React.Fragment>
   )
 }
 export default TodoItem
