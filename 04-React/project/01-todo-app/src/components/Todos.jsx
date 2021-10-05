@@ -1,14 +1,15 @@
 import TodoItem from "./TodoItem"
+import './styles/Todos.css'
 
 function Todos() {
   let listData = [
     'Item Pertama',
     'Item Kedua',
-    'Item Ketiga',
+    'Item Ketiga'
   ]
   return(
-    <ul>
-      <TodoItem data={listData}/>
+    <ul id="todos">
+      <TodoItem data={listData} />
     </ul>
   )
 }

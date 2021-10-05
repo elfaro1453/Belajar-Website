@@ -1,0 +1,11 @@
+#todos {
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0px;
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}

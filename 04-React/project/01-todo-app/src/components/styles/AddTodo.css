@@ -1,0 +1,16 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+#todo {
+  width: 80%;
+}
+#submit {
+  width: 20%;
+  padding: 2px;
+  background-color: darksalmon;
+  color: white;
+}
