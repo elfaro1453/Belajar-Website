@@ -23,8 +23,6 @@ Keterangan :
 * kurung kurawal di kode `{title}` digunakan untuk memanggil nama variabel, sehingga nilai variabel muncul
 * `export default` digunakan untuk mengekspor fungsi sehingga fungsi dapat dipanggil di fungsi lain
 
-simpan file `Header.js`.
-
 ## Modifikasi App.js
 
 Setelah membuat komponen Header, kita perlu memasukkannya ke dalam `App.js` dikarenakan Komponen Header adalah child dari komponen App.
