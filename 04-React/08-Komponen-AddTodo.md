@@ -7,8 +7,6 @@ Buat file `AddTodo.jsx` di dalam folder `components`.
 Masukkan kode berikut :
 
 ```javascript
-import React from 'react'
-
 function AddTodo() {
   return (
     <form>
