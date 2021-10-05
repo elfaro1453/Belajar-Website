@@ -22,7 +22,7 @@ Simpan `TodoItem.jsx`
 
 Komponen `Todos` digunakan sebagai container atau wadah untuk daftar atau list todo item.
 
-Buat `Todos.jsx` di dalam folder `src`, isi dengan kode berikut :
+Buat `Todos.jsx` di dalam folder `components`, isi dengan kode berikut :
 
 ```javascript
 import TodoItem from "./TodoItem"
