@@ -4,7 +4,7 @@ Styling JSX dapat dilakukan dengan membuat file CSS yang kemudian diimport ke da
 
 ## Buat Sebuah Folder Sebagai Wadah CSS
 
-Buat folder bernama `styles` di dalam folder `components`. Sebaiknya nama file CSS akan disesuaikan dengan nama file JSX yang akan menggunakannya.
+Buat folder bernama `styles` di dalam folder `components`. Sebaiknya pemberian nama file CSS disesuaikan dengan nama file JSX yang akan menggunakannya.
 
 ### Informasi penting sebelum membuat CSS untuk JSX
 
