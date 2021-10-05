@@ -44,7 +44,7 @@ Simpan file `TodoItem.jsx`
 Keterangan :
 
 * Variabel `data` berisi `props.data` sehingga pada pemanggilan komponen `TodoItem` perlu ditambahkan atribut `data`, contoh `<TodoItem data={variabelData} />`.
-* TodoItem diharapkan dipanggil berkali-kali karena merupakan isi dari komponen list, oleh karenanya terdapat variabel `listItem` berisi `map` dari data.
+* TodoItem diharapkan memunculkan banyak data dari Todos, oleh karenanya terdapat variabel `listItem` berisi `map` dari data.
 * Penggunaan perulangan `map` menandakan bahwa data berupa object (array juga termasuk object javascript)
 * Masing-masing item dari data akan ditampilkan di dalam tag HTML `<li>..</li>`
 
