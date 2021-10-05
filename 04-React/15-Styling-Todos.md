@@ -1,5 +1,9 @@
 # Styling Komponen Todos
 
+Komponen `Todos` hanya terdiri dari tag `ul` dan komponen `TodoItem`. Maka kita hanya perlu memodifikasi bagian tag `ul` saja dengan menambahkan id pada elemen tersebut.
+
+Buka file `Todos.jsx`, tambahkan import style `Todos.css` dan id pada tag `ul` sehingga menjadi seperti berikut ini :
+
 ```javascript
 import TodoItem from "./TodoItem"
 import './styles/Todos.css'
@@ -19,6 +23,12 @@ function Todos() {
 export default Todos
 ```
 
+Simpan `Todos.jsx`, akan muncul error pada import dikarenakan file `Todos.css` belum dibuat.
+
+## Buat Todos.css
+
+Buat file `Todos.css`, masukkan kode berikut :
+
 ```css
 #todos {
   width: 100%;
@@ -32,3 +42,7 @@ export default Todos
   margin-block-end: 0px;
 }
 ```
+
+Simpan file `Todos.css`.
+
+Selanjutnya kita akan memberi styling pada komponen `TodoItem`.
