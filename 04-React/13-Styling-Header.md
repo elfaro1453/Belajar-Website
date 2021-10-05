@@ -1,8 +1,8 @@
 # Styling Komponen Header
 
-Komponen Header akan diberi style sederhana yaitu perubahan warna background dan warna font saja. Namun agar style hanya berlaku untuk komponen header ini, maka kita perlu mmeberikan identifikasi elemen, yakni dengan menambahkan **atribut id** pada elemen h1.
+Komponen Header akan diberi style sederhana yaitu perubahan warna background dan warna font saja. Namun agar style hanya berlaku untuk komponen header ini, maka kita perlu memberikan identifikasi elemen, yakni dengan menambahkan **atribut id** pada elemen h1.
 
-Buka file `Header.jsx`, tambahkan atribut `id="header"` pada tag `<h1>`. Sehingga kodenya menjadi seperti ini :
+Buka file `Header.jsx`, masukkan tag `h1` ke dalam sebuah tag `div`, kemudian tambahkan atribut `id="header"` pada tag `div`. Sehingga kodenya menjadi seperti ini :
 
 ```javascript
 import './styles/Header.css'
