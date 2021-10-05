@@ -4,7 +4,7 @@ Komponen `TodoItem` dibuat terlebih dahulu karena menjadi child dari komponen `T
 
 ## Komponen TodoItem
 
-Buat `TodoItem.jsx` di dalam folder `src`, isi dengan kode berikut :
+Buat `TodoItem.jsx` di dalam folder `components`, isi dengan kode berikut :
 
 ```javascript
 function TodoItem() {
