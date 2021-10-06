@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Forms</title>
+</head>
+
+<body>
+  <!-- tag form bisa berisi beberapa tag seperti : -->
+  <!--
+    • tag input
+    • tag label
+    • tag button
+    • tag textarea
+    • tag select
+    • tag option
+    • tag optgroup
+    • tag fieldset
+  -->
+
+  <!-- tag di atas memiliki beberapa atribut berikut : -->
+  <!--
+    • name -> atribut yang menjadi key dari value
+    • value -> atribut untuk memberi nilai awal pada input
+    • placeholder -> atribut untuk memberi teks banyangan (bantuan pada input
+    • type -> atribut untuk memberi batasan format pada input
+    • required -> atribut yang menandakan user harus mengisi input
+    • readonly -> atribut yang membatasi user agar tidak bisa mengubah isi input
+    • disabled -> atribut yang membatasi user agar tidak bisa mengklik input
+    • size -> atribut yang mengatur lebar dari input
+    • maxlength -> atribut yang membatasi maksimal banyak karakter pada input
+    • minlength -> atribut yang membatasi minimum banyak karakter pada input
+    • min dan max -> atribut untuk mengatur nilai min dan max dari angka dalam input
+    • multiple -> atribut yang mengijinkan lebih dari sebuah data, biasanya untuk input type file
+  -->
+
+  <!-- atribut type dapat digunakan untuk memvalidasi format dari input user -->
+  <!--
+    • input type="text" -> nilai awal sebuah input adalah text
+    • input type="submit" -> mengubah input menjadi tombol submit
+    • input type="email" -> input hanya menerima format email
+    • input type="password" -> input hanya menerima format password
+    • input type="number" -> input hanya menerima format number atau angka
+    • input type="time" -> input dengan memunculkan kotak pilihan waktu
+    • input type="datetime-local" -> input dengan memunculkan kotak kalender
+    • input type="range" -> input dengan rentang tertentu, harus ada attribut min dan max
+    • input type="file" -> input hanya menerima format file
+    • input type="radio" -> input dengan pilihan tertentu
+  -->
+  <form>
+    <header class="headerContainer">
+      <h1>Contoh HTML 5 Form Input Fields</h1>
+    </header>
+    <div>
+      <label for="text">text input : </label>
+      <input type="text" id="text" name="text">
+    </div>
+    <div>
+      <label for="pwd">password input : </label>
+      <input type="password" id="pwd" name="pwd" required>
+    </div>
+    <div>
+      <label for="email">email input : </label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div>
+      <label for="url">url input: </label>
+      <input type="url" id="url" name="url">
+    </div>
+    <div>
+      <label for="number">number input type: </label>
+      <input type="number" id="number" name="number">
+    </div>
+    <div>
+      <label for="search">search: </label>
+      <input type="search" id="search" name="search">
+    </div>
+    <div class="nativeDateTimePicker">
+      <label for="party">Choose a date and time:</label>
+      <input type="datetime-local" id="party" name="bday">
+    </div>
+    <div>
+      <label for="salary">choose a salary: </label>
+      <input type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
+    </div>
+    <div>
+      <label for="picture">Masukkan Foto : </label>
+      <input type="file" id="picture" name="picture">
+    </div>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+</body>
+
+</html>

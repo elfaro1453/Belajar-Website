@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Menambahkan Audio pada HTML</title>
+</head>
+<body>
+  <!-- Tag Audio berguna untuk memasukkan audio pada html -->
+  <!-- tag Audio membutuhkan child berupa tag source yang berisi sumber audio -->
+  <!-- format audio yang didukung antara lain .mp3, .wav, dan .ogg -->
+
+  <!-- tag Audio memiliki beberapa atribut yang didukung berikut ini : -->
+  <!-- autoplay : audio bermain secara otomatis -->
+  <!-- controls : memunculkan kontrol untuk audio -->
+  <!-- loop : audio diputar kembali setelah selesai -->
+  <!-- muted : mematikan volume audio -->
+
+  <!-- tag source memiliki beberapa atribut yang didukung berikut ini : -->
+  <!-- src : berisi url dari audio yang akan dimainkan -->
+  <!-- type : berisi jenis audio yang dimainkan -->
+
+  <h1>Contoh Audio dengan memunculkan kontrol</h1>
+  <audio controls>
+    <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+    <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Contoh Audio autoplay, tanpa control, dan loop</h2>
+  <audio autoplay loop>
+    <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+    <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
