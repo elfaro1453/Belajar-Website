@@ -8,13 +8,36 @@ Cara menggunakan props yakni tinggal menambahkan parameter bernama props di komp
 
 Setelah props ditambahkan pada komponen, maka kita bisa mentransfer data dari komponen lain ke komponen tersebut dengan menambahkan atribut pada pemanggilan komponen, sebagai contoh :
 
+## Contoh penggunaan props pada komponen Child dan Parent
+
+Semisal kita akan mengirim data dari komponen `Parent` ke komponen `Child`
+
+Langkahnya :
+
+1. Tambahkan props pada komponen child, props harus mengarah ke atribut dari child
+2. Panggil komponen child pada komponen parent dengan menambahkan atribut untuk props
+
 ### Komponen Child.jsx
 
 ```javascript
 function Child(props) {
+  // props.data berarti harus ada atribut data pada pemanggilan komponen Child
+  // Contoh : <Child data={suatuData} />
   let data = props.data
   return (
     <h1>{data}</h1>
+  )
+}
+```
+
+### Komponen Parent.jsx
+
+```javascript
+function Parent() {
+  let dataYangDitransfer = "Transfer data menggunakan props"
+  return (
+    // transfer dataYangDitransfer melalui atribut data
+    <Child data={dataYangDitransfer} />
   )
 }
 ```
@@ -32,6 +55,7 @@ import React from "react"
 
 function TodoItem(props) {
   let data = props.data
+  // setiap perulangan data di React itu menggunakan map
   let listItem = data.map((item) => {
       return <li>{item}</li>
   })
