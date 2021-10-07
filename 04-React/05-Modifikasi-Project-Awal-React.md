@@ -4,7 +4,7 @@ Project React berfokus pada folder `src` yang ada di dalam project. Setelah pemb
 
 ## Hapus file yang belum diperlukan
 
-Hapus beberapa file di folder `src` sehingga sisa file `index.js` dan `App.js`.
+Hapus beberapa file di folder `src` sehingga tersisa 2 file yaitu `index.js` dan `App.js`.
 
 ## index.js
 
