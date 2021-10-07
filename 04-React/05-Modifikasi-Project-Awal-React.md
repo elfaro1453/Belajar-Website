@@ -6,7 +6,7 @@ Project React berfokus pada folder `src` yang ada di dalam project. Setelah pemb
 
 Hapus beberapa file di folder `src` sehingga tersisa 2 file yaitu `index.js` dan `App.js`.
 
-## index.js
+## Modifikasi file index.js
 
 File index.js adalah file entry point atau titik awal dari project Nodejs.
 
@@ -27,7 +27,7 @@ ReactDOM.render(
 
 Dapat dilihat bahwasanya terdapat kode `<App />`, kode tersebut adalah custom tag yang dihasilkan dari membuat komponen javascript. Pada project ini, kita akan menggunakan komponen `App` sebagai container dari aplikasi atau wadah terluar dari aplikasi react.
 
-## App.js
+## Modifikasi file App.js
 
 `App.js` adalah komponen react yang didalamnya hanya berisi sebuah fungsi yang di-export.
 
