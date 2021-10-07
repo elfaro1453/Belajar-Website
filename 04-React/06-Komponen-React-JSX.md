@@ -25,12 +25,12 @@ Biasanya kita hanya perlu memanggil nama variabel untuk mengakses nilai dari var
 
 Cara mengakses variabel pada HTML JSX dilakukan dengan format `{namaVariable}`.
 
-Contoh semisal ada sebuah komponen bernama `Title` :
+Contoh semisal ada sebuah komponen bernama `App` :
 
-**`Title.jsx`**
+**`App.js`**
 
 ```javascript
-function Title(){
+function App(){
   // Buat sebuah variabel bernama judul
   let judul = "Belajar Akses Variable"
 
@@ -42,7 +42,7 @@ function Title(){
     <h1>{judul}</h1>
   )
 }
-export default Title
+export default App
 ```
 
 Keterangan :
