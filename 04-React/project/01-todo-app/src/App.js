@@ -5,27 +5,27 @@ import Todos from "./components/Todos";
 
 function App() {
   const [todos, setTodos] = useState([
-      {
+    {
       id: 1,
       title: "Setup development environment",
       completed: true
-      },
-      {
+    },
+    {
       id: 2,
       title: "Develop website and add content",
       completed: false
     },
     {
-    id: 3,
-    title: "Deploy to live server",
-    completed: false
+      id: 3,
+      title: "Deploy to live server",
+      completed: false
     }
-    ]);
+  ]);
   return (
     <React.Fragment>
       <Header />
       <AddTodo />
-      <Todos todos={todos}/>
+      <Todos todos={todos} />
     </React.Fragment>
   )
 }
