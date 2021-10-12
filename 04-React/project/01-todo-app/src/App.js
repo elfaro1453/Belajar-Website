@@ -21,6 +21,7 @@ function App() {
       completed: false
     }
   ]);
+
   return (
     <React.Fragment>
       <Header />
