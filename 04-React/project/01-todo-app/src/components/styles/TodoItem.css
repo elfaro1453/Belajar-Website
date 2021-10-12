@@ -3,3 +3,6 @@
   list-style-type: none;
   padding: 10px 15px;
 }
+.itemlist input {
+  margin-right: 15px;
+}
