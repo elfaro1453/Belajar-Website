@@ -4,7 +4,7 @@ import './styles/TodoItem.css'
 function TodoItem(props) {
   let data = props.data
   let listItem = data.map((item) => {
-      return <li className="itemlist">{item}</li>
+      return <li className="itemlist" key={item.id}>{item.title}</li>
   })
 
   return (
