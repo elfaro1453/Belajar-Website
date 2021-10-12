@@ -1,4 +1,5 @@
 .itemlist {
   border: 1px solid blueviolet;
   list-style-type: none;
+  padding: 10px 15px;
 }
