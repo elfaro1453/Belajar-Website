@@ -22,11 +22,23 @@ function App() {
     }
   ]);
 
+  const handleChanges = id => {
+    setTodos(
+      todos.map(todo => {
+        if (todo.id === id) {
+          todo.completed = !todo.completed;
+        }
+        return todo;
+      }
+      )
+    )
+  }
+
   return (
     <React.Fragment>
       <Header />
       <AddTodo />
-      <Todos todos={todos} />
+      <Todos todos={todos} handleChanges={handleChanges} />
     </React.Fragment>
   )
 }

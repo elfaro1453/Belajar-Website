@@ -6,3 +6,8 @@
 .itemlist input {
   margin-right: 15px;
 }
+.itemlist .completed {
+  font-style: italic;
+  color: #c5e2d2;
+  text-decoration : line-through;
+}
