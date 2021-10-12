@@ -3,11 +3,24 @@
   list-style-type: none;
   padding: 10px 15px;
 }
+
 .itemlist input {
   margin-right: 15px;
 }
+
 .itemlist .completed {
   font-style: italic;
   color: #c5e2d2;
-  text-decoration : line-through;
+  text-decoration: line-through;
+}
+
+.itemlist button {
+  background: #d35e0f;
+  color: #fff;
+  border: 1px solid #d35e0f;
+  padding: 3px 7px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+  outline: none;
 }

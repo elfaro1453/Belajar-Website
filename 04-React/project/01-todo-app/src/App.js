@@ -34,11 +34,19 @@ function App() {
     )
   }
 
+  const deleteData = id => {
+    setTodos(
+      todos.filter(todo => {
+        return todo.id !== id;
+      })
+    )
+  }
+
   return (
     <React.Fragment>
       <Header />
       <AddTodo />
-      <Todos todos={todos} handleChanges={handleChanges} />
+      <Todos todos={todos} handleChanges={handleChanges} deleteData={deleteData}/>
     </React.Fragment>
   )
 }
